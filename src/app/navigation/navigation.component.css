@@ -1,0 +1,26 @@
+nav {
+    background-color: lightgray;
+    padding: 0.6rem 1rem;
+}
+
+ul {
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    color: black;
+    text-decoration: none;
+    padding: 0.3rem 0.5rem;
+    border-radius: 0.7rem;
+    transition: 0.3s;
+}
+li a:hover {
+    background-color: #111;
+    color: whitesmoke;
+    opacity: 0.8;
+}
